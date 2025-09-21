@@ -1,6 +1,9 @@
-void main() {
-    IO.print("Enter your name in Console:");
-    var name = IO.readln();
 
-    IO.println("Hello %s, this is Java 25.".formatted(name));
+void main() {
+    var list = new ArrayList<String>();
+    while (list.size() < 2) {
+        IO.print("Enter max 2 items in Console: ");
+        list.add(IO.readln());
+    }
+    IO.println("Java 25 items are " + list);
 }
