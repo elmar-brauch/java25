@@ -1,6 +1,6 @@
 package de.bsi;
 
-import java.util.List;
+import module java.base;
 
 /// # JEP 467
 /// Java supports comments in Markdown format.
