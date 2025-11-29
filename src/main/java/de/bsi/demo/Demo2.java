@@ -1,7 +1,5 @@
 package de.bsi.demo;
 
-import java.util.NoSuchElementException;
-
 public class Demo2 {
 
     // Details in https://openjdk.org/jeps/506
